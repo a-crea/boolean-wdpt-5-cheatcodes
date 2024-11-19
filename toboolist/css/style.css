@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: white;
+    padding: 10px 30px;
+}
+
+.logo{
+    background-color: rebeccapurple;
+    width: 150px;
+    height: 50px;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 780px;
+    margin: 50px auto 0 auto;
+}
+
+.buttons-ct{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #eee;
+}
+
+.items-ct{
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+.main-px{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h3{
+    padding-left: 6px;
+}
+
+ul{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+li{
+    padding-top: 10px;
+}
+
+.todo-status-icon{
+    display: inline-block;
+    border: 1px solid green;
+    color:green;
+    border-radius: 100%;
+    width: 25px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.status-error{
+    border-color: red;
+    color:red;
+}
+
+.todo-tag{
+    background-color: rgb(52, 91, 218);
+    padding: 4px 15px;
+    font-size: 12px;
+    border-radius: 30px;
+    color: white;
+}
+
+.bg-purple{
+    background-color: rebeccapurple;
+}
+
+.bg-green{
+    background-color: lightgreen;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+
+button{
+    background-color: aquamarine;
+}
